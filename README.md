@@ -104,8 +104,8 @@ To manually trigger a build that also invokes webpack you can use `lektor build 
 Now you need to include the files in your template.  This will do it:
 
 ```html
-<link rel="stylesheet" href="{{ '/static/gen/styles.css'| asseturl }}">
-<script type=text/javascript src="{{ '/static/gen/app.js'| asseturl }}" charset="utf-8"></script>
+<link rel="stylesheet" href="{{ '/static/gen/main.css'| asseturl }}">
+<script type=text/javascript src="{{ '/static/gen/main.js'| asseturl }}" charset="utf-8"></script>
 ```
 
 ## Complete Working Example
