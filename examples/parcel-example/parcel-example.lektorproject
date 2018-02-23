@@ -1,0 +1,5 @@
+[project]
+name = parcel-example
+
+[packages]
+lektor-npm-support = 0.1

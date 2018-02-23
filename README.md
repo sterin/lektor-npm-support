@@ -43,8 +43,8 @@ This is a standard `package.json` file. It should contain two entries in the `sc
   "name": "my-parcel-project",
   "version": "1.0.0",
   "scripts": {
-    "watch": "NODE_ENV=development parcel --out-dir=../assets/static/gen --out-file=main.js --public-url=./assets/ js/main.js",
-    "build": "NODE_ENV=production parcel build --out-dir=../assets/static/gen --out-file=main.js --public-url=./assets/ js/main.js"
+    "watch": "NODE_ENV=development parcel --out-dir=../assets/static/gen --out-file=main.js --public-url=./assets/ main.js",
+    "build": "NODE_ENV=production parcel build --out-dir=../assets/static/gen --out-file=main.js --public-url=./assets/ main.js"
   },
   "private": true
 }
