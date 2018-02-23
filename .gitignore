@@ -1,0 +1,17 @@
+dist
+build
+
+*.pyc
+*.pyo
+
+*.egg-info
+.eggs/
+
+.cache
+.pytest_cache/
+
+.coverage
+htmlcov
+*,cover
+
+.vscode/
