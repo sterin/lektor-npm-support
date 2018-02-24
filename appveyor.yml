@@ -19,7 +19,7 @@ install:
 test_script:
   - "%PYTHON%\\python.exe --version"
   - "%PYTHON%\\python.exe -m pip list"
-  - "%PYTHON%\\Scripts\\pytest.exe . --tb=short -v --cov=lektor-npm-support"
+  - "%PYTHON%\\Scripts\\pytest.exe . --tb=short -v --cov=lektor_npm_support"
 
 # Not a .NET project
 build: false
