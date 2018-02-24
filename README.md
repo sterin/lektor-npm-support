@@ -1,6 +1,8 @@
 # lektor-npm-support
 
-[![Build Status](https://travis-ci.org/sterin/lektor-npm-support.svg)](https://travis-ci.org/sterin/lektor-npm-support) [![Code Coverage](https://codecov.io/gh/sterin/lektor-npm-support/branch/master/graph/badge.svg)](https://codecov.io/gh/sterin/lektor-npm-support)
+[![Build Status](https://travis-ci.org/sterin/lektor-npm-support.svg)](https://travis-ci.org/sterin/lektor-npm-support)
+[![Build status](https://ci.appveyor.com/api/projects/status/6op1csefpi9l8hbg?svg=true)](https://ci.appveyor.com/project/sterin/lektor-npm-support)
+[![Code Coverage](https://codecov.io/gh/sterin/lektor-npm-support/branch/master/graph/badge.svg)](https://codecov.io/gh/sterin/lektor-npm-support)
 
 `lektor-npm-support` makes it easy to use [Parcel](https://parcel.js.org), [webpack](https://webpack.js.org), [browserify](http://browserify.org/), or any other tool to build assets for [Lektor](https://github.com/lektor/lektor) projects. 
 
