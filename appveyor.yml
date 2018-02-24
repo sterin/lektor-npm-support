@@ -1,0 +1,25 @@
+matrix:
+  fast_finish: true
+
+environment:
+  matrix:
+
+    - PYTHON: "C:\\Python27"
+      NODE_JS_VERSION: "8"
+
+    - PYTHON: "C:\\Python36"
+      NODE_JS_VERSION: "8"
+
+
+install:
+  - "%PYTHON%\\python.exe -m pip install --upgrade pytest"
+  - "%PYTHON%\\python.exe -m pip install --upgrade codecov"
+  - "%PYTHON%\\python.exe -m pip install --editable .[test]"
+
+test_script:
+  - "%PYTHON%\\python.exe --version"
+  - "%PYTHON%\\python.exe -m pip list"
+  - "%PYTHON%\\Scripts\\pytest.exe . --tb=short -v --cov=lektor-npm-support"
+
+# Not a .NET project
+build: false
