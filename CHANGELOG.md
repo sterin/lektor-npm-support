@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.2
+- Added the content of README.md as the long_description field to setup.py as requested by https://github.com/lektor/lektor-website/issues/203
+
 ## 0.1.1
 - Fixed bugs in README.md.
 - Added a working Parcel example.

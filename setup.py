@@ -1,3 +1,4 @@
+import os
 from setuptools import setup
 
 tests_require = [
@@ -7,14 +8,20 @@ tests_require = [
     'pytest-mock'
 ]
 
+
+def read(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+
+
 setup(
     name='lektor-npm-support',
     author=u'Baruch Sterin',
     author_email='lektor-npm-support@bsterin.com',
-    version='0.1.1',
+    version='0.1.2',
     url='http://github.com/sterin/lektor-npm-support',
     license='BSD',
     description="Adds support for using npm/yarn to build assets in Lektor",
+    long_description=read('README.md'),
     py_modules=['lektor_npm_support'],
     install_requires=['future'],
     setup_requires=['pytest-runner'],
