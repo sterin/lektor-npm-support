@@ -17,7 +17,7 @@ setup(
     name='lektor-npm-support',
     author=u'Baruch Sterin',
     author_email='lektor-npm-support@bsterin.com',
-    version='0.1.3',
+    version='0.1.4',
     url='http://github.com/sterin/lektor-npm-support',
     license='BSD',
     description="Adds support for using npm/yarn to build assets in Lektor",

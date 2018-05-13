@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.4
+- Bumped version number
+
 ## 0.1.3
 - Change the content type of long_description to text/markdown
 
