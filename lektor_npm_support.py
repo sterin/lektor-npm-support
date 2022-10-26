@@ -118,8 +118,10 @@ class NPMSupportPlugin(Plugin):
         config = self.get_config()
         for section in config.itersections():
             props = config.section_as_dict(section)
+            section_folders = section.split('.')
+            folder = os.path.join(self.env.root_path, *section_folders)
             yield NPMRunner(
-                folder=os.path.join(self.env.root_path, section),
+                folder=folder,
                 npm=props.get('npm', 'npm'),
                 build_script=props.get('build_script', 'build'),
                 watch_script=props.get('watch_script', 'watch'),

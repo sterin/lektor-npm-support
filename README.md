@@ -112,7 +112,7 @@ Lektor website that use this plugin.
 
 ## Manual Builds
 
-To manually trigger a build that also invokes webpack you can use `lektor build -f npm`.
+To manually trigger a build that also invokes npm you can use `lektor build -f npm`.
 
 ## Including The Files
 
